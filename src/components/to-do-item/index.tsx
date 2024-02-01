@@ -37,7 +37,7 @@ export function ToDoItem({ item }: { item: ToDo }) {
         </label>
       </div>
 
-      <ButtonIcon onClick={() => removeTodo(item.id)}>
+      <ButtonIcon onClick={() => removeTodo(item.id)} aria-label="Excluir task">
         <Trash size={16} />
       </ButtonIcon>
     </div>

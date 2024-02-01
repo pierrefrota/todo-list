@@ -32,7 +32,7 @@ export function CreateTask() {
         onChange={(text) => setTask(text.target.value)}
         autoFocus
       />
-      <Button>
+      <Button aria-label="Criar task">
         Criar
         <PlusCircle width={24} height={24} />
       </Button>
