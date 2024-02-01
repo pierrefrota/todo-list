@@ -1,0 +1,15 @@
+.badge {
+  background-color: var(--gray-400);
+  color: var(--gray-200);
+  border-radius: 9999px;
+
+  height: 1.25rem;
+  padding: 0 0.5rem;
+
+  font-size: 0.75rem;
+  line-height: 0;
+  font-weight: 700;
+
+  display: grid;
+  place-items: center;
+}

@@ -1,0 +1,22 @@
+.task-metrics {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 4rem;
+
+  .metric-item {
+    display: flex;
+    gap: 0.5rem;
+    font-weight: 700;
+    font-size: 0.825rem;
+  }
+
+  .created-tasks {
+    color: var(--blue);
+  }
+
+  .completed-tasks {
+    color: var(--purple);
+  }
+}

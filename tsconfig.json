@@ -24,6 +24,6 @@
     },
     "types": ["node"],
   },
-  "include": ["src"],
+  "include": ["src", "src/components"],
   "references": [{ "path": "./tsconfig.node.json" }],
 }
