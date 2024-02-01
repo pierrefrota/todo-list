@@ -100,18 +100,19 @@ export function TodoProvider({ children }: TodoProviderProps) {
       setTodoList(todoList);
       createMetrics(todoList);
     }
+    setIsLoadingTodoList(false);
 
-    delay();
+    // delay();
   }, []);
 
-  function delay() {
-    return new Promise((resolve) => {
-      setTimeout(() => {
-        setIsLoadingTodoList(false);
-        resolve('carregou');
-      }, 2000);
-    });
-  }
+  // function delay() {
+  //   return new Promise((resolve) => {
+  //     setTimeout(() => {
+  //       setIsLoadingTodoList(false);
+  //       resolve('carregou');
+  //     }, 2000);
+  //   });
+  // }
 
   const contextValue = {
     todoList,
